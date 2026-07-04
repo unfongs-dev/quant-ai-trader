@@ -1,0 +1,15 @@
+python-dotenv
+
+openai
+
+google-genai
+
+pandas
+
+numpy
+
+rich
+
+typer
+
+loguru
