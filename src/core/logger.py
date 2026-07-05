@@ -12,7 +12,9 @@ logger.add(
 logger.add(
     "logs/app.log",
     rotation="10 MB",
-    retention="30 days",
+    retention="90 days",
     level="INFO",
     format="{time:YYYY-MM-DD HH:mm:ss} | {level:<8} | {message}"
 )
+
+app_logger = logger
